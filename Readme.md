@@ -28,23 +28,25 @@ All the codes of c++ to help everyone learn c++. (beginners) The path to learn i
 
 13\. [Area of Rectangle using Constructor](https://github.com/techmuses/learn.cpp/tree/master/area%20of%20rectangle%20constrc)
 
-14\. [Inheritance](https://github.com/techmuses/learn.cpp/blob/master/inheritance.cpp)
+14\. [Inheritance & Pollymorphism PDF For reference](https://github.com/techmuses/learn.cpp/blob/master/inheritance%20and%20pollymorphism.pdf)
 
-15\. [Multi level Inheritance](https://github.com/techmuses/learn.cpp/tree/master/multi%20inheritance.cpp)
+15\. [Inheritance](https://github.com/techmuses/learn.cpp/blob/master/inheritance.cpp)
 
-16\. [Multiple Inheritance](https://github.com/techmuses/learn.cpp/blob/master/multiple%20inheritance.cpp)
+16\. [Multi level Inheritance](https://github.com/techmuses/learn.cpp/tree/master/multi%20inheritance.cpp)
 
-17\. [Ambiguity in inheritance](https://github.com/techmuses/learn.cpp/blob/master/ambiguity.cpp)
+17\. [Multiple Inheritance](https://github.com/techmuses/learn.cpp/blob/master/multiple%20inheritance.cpp)
 
-18\. [Hierarchical Inheritance](https://github.com/techmuses/learn.cpp/blob/master/Hierarchical%20Inheritance%20in%20C++.cpp)
+18\. [Ambiguity in inheritance](https://github.com/techmuses/learn.cpp/blob/master/ambiguity.cpp)
 
-19\. [What is Function Overide Problem](https://github.com/techmuses/learn.cpp/blob/master/overide%20problem.cpp)
+19\. [Hierarchical Inheritance](https://github.com/techmuses/learn.cpp/blob/master/Hierarchical%20Inheritance%20in%20C++.cpp)
 
-20\. [Function Overiding Problem (partial Solve)](https://github.com/techmuses/learn.cpp/blob/master/fUCTION%20OVERDING.cpp)
+20\. [What is Function Overide Problem](https://github.com/techmuses/learn.cpp/blob/master/overide%20problem.cpp)
 
-21\. [Function Overiding Problem (solved) ](https://github.com/techmuses/learn.cpp/blob/master/Function%20overiding%20%28solved%29.cpp)
+21\. [Function Overiding Problem (partial Solve)](https://github.com/techmuses/learn.cpp/blob/master/fUCTION%20OVERDING.cpp)
 
-22\. [Hybrid Inheritance (complex program)](https://github.com/techmuses/learn.cpp/blob/master/Hybrid%20Inheritance.cpp)
+22\. [Function Overiding Problem (solved) ](https://github.com/techmuses/learn.cpp/blob/master/Function%20overiding%20%28solved%29.cpp)
+
+23\. [Hybrid Inheritance (complex program)](https://github.com/techmuses/learn.cpp/blob/master/Hybrid%20Inheritance.cpp)
 
 [_New codes updated frequently -_](https://github.com/techmuses/learn.cpp/graphs/contributors)
 
