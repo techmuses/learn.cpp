@@ -46,8 +46,6 @@ All the codes of c++ to help everyone learn c++. (beginners) The path to learn i
 
 22\. [Hybrid Inheritance (complex program)](https://github.com/techmuses/learn.cpp/blob/master/Hybrid%20Inheritance.cpp)
 
-23\. HI!
-
 [_New codes updated frequently -_](https://github.com/techmuses/learn.cpp/graphs/contributors)
 
 **Hang tight fellas!** 🤞
