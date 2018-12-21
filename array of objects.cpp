@@ -1,19 +1,18 @@
 #include<iostream>
-
+using namespace std;
 class sample
 {
-char nm[10];
-int no;
+char nm;
 public:
 
     void input()
     {
-        cin>>no>>nm[10];
+        cin>>nm;
     }
     void output()
     {
-        cout<<"no="<<no<<endl;
-        cout<<"name"<<nm[10];
+        //cout<<"no="<<no<<endl;
+        cout<<"name"<<nm;
     }
 };
 int main()
