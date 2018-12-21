@@ -34,6 +34,7 @@ int main()
     C obj2;          //object of derived class C
     obj1.getdata();
     obj1.product();
+    
     obj2.getdata();
     obj2.sum();
     return 0;
