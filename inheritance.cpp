@@ -29,11 +29,13 @@ class b: public a       //child class with inherited parameters from parent
     void display()  //child class function
     {
         cout<<"j="<<j;
+        cout<<"i="<<i;
         show();      //excessing parent function
     }
 };
 int main()
 {
     b b1;         //child class object
-    b1.display();  //excessing child class function
+    b1.display();
+    //excessing child class function
 }
