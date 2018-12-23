@@ -31,9 +31,9 @@ int main()
 {
   sample s1;
 
-  s1.input_value();
+  s1.input();
 
-  s1.output_value();
+  s1.output();
 
 
 }
