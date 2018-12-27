@@ -1,15 +1,16 @@
 #include<iostream>
 using namespace std;
-class Samplecopyconstructor
+class sample 
 {
     private:
     int x, y;   //data members
 
     public:
-    Samplecopyconstructor(int x1, int y1)
+
+    sample(int x1, int y1) 
     {
-        x = x1;
-        y = y1;
+        x = x1; // x= 10
+        y = y1; // y = 15
     }
      /* Copy constructor */
 /*
@@ -19,10 +20,10 @@ Classname(const classname & objectname)
 }
 */
    
-    Samplecopyconstructor (const Samplecopyconstructor &sam)
+    sample (const sample &obj_copy)
     {
-        x = sam.x;
-        y = sam.y;
+        x = obj_copy.x;
+        y = obj_copy.y;
     }
 
     void display()
@@ -33,8 +34,8 @@ Classname(const classname & objectname)
 /* main function */
 int main()
 {
-    Samplecopyconstructor obj1(10, 15);     // Normal constructor
-    Samplecopyconstructor obj2 = obj1;      // Copy constructor
+    sample obj1(10, 15);     // Normal constructor
+    sample obj2 = obj1;      // Copy constructor = normal constructor 
     cout<<"Normal constructor : ";
     obj1.display();
     cout<<"Copy constructor : ";

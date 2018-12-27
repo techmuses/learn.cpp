@@ -4,7 +4,7 @@ class defconstr
 {
     public:
     int no1, no2;
-defconstr()
+defconstr() 
 {
     no1=5;
     no2=6;
@@ -16,6 +16,6 @@ void output()
 };
 int main()
 {
-    defconstr s1;
+    defconstr s1;  
     s1.output();
 }
