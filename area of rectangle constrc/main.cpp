@@ -9,7 +9,7 @@ class Rectangle
 	public:
 		int length;
 		int breadth;
-		Rectangle() // constructor//
+		Rectangle(int l, int b) // constructor//
 		{
 			length = l;
 			breadth = b;
