@@ -9,6 +9,7 @@ int main(){
 cout<<endl<<"A="<<a<<endl;
 cout<<"B="<<b<<endl;
  swap(a,b);
+ cout<<"After Swap";
 cout<<"A="<<a<<endl;
 cout<<"B="<<b<<endl;
 }
