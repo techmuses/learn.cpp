@@ -5,7 +5,7 @@ using namespace std;
 class student
 {
 public:
-int rno;
+long int rno;
 char nam[100];
 void getrno()
 {
