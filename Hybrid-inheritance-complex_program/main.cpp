@@ -229,6 +229,7 @@ class result: public test, public sports
                 
 
                     cout<<endl<<"Marks of subject 3: "<<sub3<<endl;
+  
                 
                     cout<<endl<<"Marks of sports   : "<<score<<endl;
         
