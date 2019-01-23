@@ -1,4 +1,7 @@
-
+/* 
+The Open Ended Problem - Result Generation System in c++ in excel sheet!
+Created By Jainal, Akshay & Anuj.
+*/
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -229,8 +232,8 @@ class result: public test, public sports
                 
 
                     cout<<endl<<"Marks of subject 3: "<<sub3<<endl;
-  
-                
+
+
                     cout<<endl<<"Marks of sports   : "<<score<<endl;
         
         cout<<"Total score: "<<Total;
