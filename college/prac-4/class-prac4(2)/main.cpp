@@ -39,11 +39,12 @@ class Item
 int main() {
  
     // Declare an object of class geeks
-    Player Item i1;
+   Item i1;
  
    i1.getData();
    i1.display();
    i1.CalculateTotalPrice();
  
  
-    return 0;s
+    return 0;
+}

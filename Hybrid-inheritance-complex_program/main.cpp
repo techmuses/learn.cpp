@@ -7,6 +7,7 @@ class student
 public:
 long int rno;
 char nam[100];
+char lnam[100];
 void getrno()
 {
     cout<<"Enter roll no: ";
@@ -15,9 +16,10 @@ void getrno()
 
 void getnam()
 {
-    cout<<"Enter student name: ";
+    cout<<"Enter student first name: ";
     cin>>nam;
-
+    cout<<"Enter Student last name: ";
+    cin>>lnam;
 }
 void outputrno()
 {
@@ -25,7 +27,8 @@ void outputrno()
 }
 void outputnam()
 {
-    cout<<endl<<"Name:  "<<nam<<endl;
+    cout<<endl<<"Name:  "<<nam<<" ";
+    cout<<lnam<<endl;
 }
 };
 class test : public student
@@ -48,7 +51,9 @@ class test : public student
                 if(sub1>30){
 
             cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
-        sub1=0;
+             cout<<"Try again! ";
+             inputmarks1();
+       
         break;
 }
 else {
@@ -64,7 +69,8 @@ else {
                 if(sub2>30)
     {
            cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
-        sub2=0;
+         cout<<"Try again! ";
+                inputmarks2();
         break;
 }
 else {
@@ -80,11 +86,73 @@ else {
                 if(sub3>30)
     {
            cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
-        sub3=0;
+         cout<<"Try again! ";
+               inputmarks3();
         break;
 }
 else {
      cout<<endl<<"_______Values Accepted For Subject3________"<<endl;
+    break;
+}
+                }
+            }
+            void inputmarks1(){
+                 cout<<"Enter marks for sub1: ";
+                cin>>sub1;
+                for(i=1;i>=1;i++)
+                {
+
+                if(sub1>30){
+
+            cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
+             cout<<"Try again! ";
+             inputmarks1();
+       
+        break;
+}
+else {
+    cout<<endl<<"_______Values Accepted For Subject1________"<<endl;
+    break;
+}
+
+                }
+            }
+            void inputmarks2(){
+                 cout<<"Enter marks for sub2: ";
+                cin>>sub2;
+                for(i=1;i>=1;i++)
+                {
+
+                if(sub2>30){
+
+            cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
+             cout<<"Try again! ";
+             inputmarks2();
+       
+        break;
+}
+else {
+    cout<<endl<<"_______Values Accepted For Subject2________"<<endl;
+    break;
+}
+                }
+            }
+                void inputmarks3(){
+                 cout<<"Enter marks for sub3: ";
+                cin>>sub3;
+                for(i=1;i>=1;i++)
+                {
+
+                if(sub3>30){
+
+            cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
+             cout<<"Try again! ";
+             inputmarks3();
+       
+        break;
+}
+else {
+    cout<<endl<<"_______Values Accepted For Subject3________"<<endl;
     break;
 }
                 }
@@ -114,7 +182,9 @@ class sports
               if(score>30){
 
         cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
-        score=0;
+        cout<<"Try again! ";
+         inputmarks_sports();
+              
         break;
 }
 else {
@@ -123,6 +193,26 @@ else {
 }
           }
           }
+              void inputmarks_sports(){
+                 cout<<"Enter marks for Sports: ";
+                cin>>score;
+                for(i=1;i>=1;i++)
+                {
+
+                if(score>30){
+
+            cout<<"Wrong value inserted!!"<<endl<<"Enter values between 0 - 30"<<endl;
+             cout<<"Try again! ";
+             inputmarks_sports();
+       
+        break;
+}
+else {
+    cout<<endl<<"_______Values Accepted For Sports________"<<endl;
+    break;
+}
+                }
+            }
 };
 class result: public test, public sports
 {
@@ -130,35 +220,18 @@ class result: public test, public sports
       public:
       void resultdisplay(){
    cout<<endl<<"----------------RESULTS------------------"<<endl;
-                if(sub1<=0)
-                {
-                    cout<<"[Incorect input] or [U scored : 0] in - Subject1"<<endl;
-                }
-                else{
+                
+                
                     cout<<endl<<"Marks of subject 1: "<<sub1<<endl;
-                }
-                   if(sub2<=0)
-                {
-                   cout<<"[Incorect input] or [U scored : 0] in - Subject2"<<endl;
-                }
-                else{
+                
+                 
                     cout<<endl<<"Marks of subject 2: "<<sub2<<endl;
-                }
+                
 
-                   if(sub3<=0)
-                {
-                    cout<<"[Incorect input] or [U scored : 0] in - Subject3"<<endl;
-                }
-                else{
                     cout<<endl<<"Marks of subject 3: "<<sub3<<endl;
-                }
-                   if(score<=0)
-                {
-                    cout<<"[Incorect input] or [U scored : 0] in - Sports"<<endl;
-                }
-                else{
-                      cout<<endl<<"Marks of sports   : "<<score<<endl;
-                }
+                
+                    cout<<endl<<"Marks of sports   : "<<score<<endl;
+        
         cout<<"Total score: "<<Total;
         if(Total<=35)
         {
@@ -197,7 +270,8 @@ void resultoutput()
         Total= sub1 + sub2 + sub3 + score;
         percentage=((sub1+sub2+sub3+score)/120)*100;
         result_Student<<"-"<<","<<"-"<<","<<"-"<<","<<"-"<<","<<"-"<<","<<"-"<<","<<"Results"<<"-"<<","<<"-"<<","<<"-"<<","<<"-"<<","<<"-"<<","<<"-"<<endl;
-                result_Student<<"Name: "<<nam<<endl;
+                result_Student<<"Name: "<<nam<<" ";
+                result_Student<<lnam<<endl;
                 result_Student<<"Roll No. : "<<rno<<endl;
                 if(sub1<=0)
                 {
@@ -258,6 +332,7 @@ void resultoutput()
             result_Student<<" Pass!!----->Awesome result "<<endl;
             result_Student<<"With Percentage score: "<<","<<percentage<<"%"<<endl;
         }
+        result_Student<<endl<<"# Result Generation System - Made With Hybrid Inheritance in C++!!"<<endl;
     }
      void outputscore()
           {
